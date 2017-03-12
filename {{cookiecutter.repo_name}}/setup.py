@@ -23,7 +23,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,
-    license="TODO: insert liceense here",
+    license="TODO: insert license here",
     zip_safe=False,
     keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
