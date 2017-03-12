@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ cookiecutter.project_name }}</title>
+    <meta name="description" content="{{ cookiecutter.project_short_description }}">
+    <meta name="author" content="{{ cookiecutter.full_name }}">
+    <!-- <link rel="icon" href="TODO"> -->
+    {% raw %}
+    <link rel="stylesheet" href="{{ static_url('css/style.css') }}">
+    {% endraw %}
+  </head>
+  <body>
+    {% raw %}
+    {% block body %}{% end %}
+    {% endraw %}
+  </body>
+</html>
