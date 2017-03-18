@@ -23,6 +23,7 @@ def make_app(debug=False):
         static_path=subdir("static"),
         template_path=subdir("templates"),
         debug=debug)
+    return app
 
 
 if __name__ == "__main__":
